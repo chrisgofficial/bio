@@ -1,0 +1,89 @@
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.html {width: 95%; background-color: #801515;} /* RED */
+.css {width: 80%; background-color: #D4B16A;} /* YELLOW*/
+.js {width: 70%; background-color: #226666;} /* TEAL */
+.php {width: 60%; background-color: #801515;} /* Repeat */
+.git {width: 95%; background-color: #D4B16A;}
+.mysql {width: 70%; background-color: #226666;}
+.nodejs {width: 70%; background-color: #801515;}
+.firebase {width: 65%; background-color: #D4B16A;}
+
+h3 {
+	color:white;
+}
+
+p {
+	color: white;
+}
+
+h5 {
+	color: white;
+}
+
+.skillz {
+	color: teal;
+	text-align: center;
+	padding-left: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    font-size: 18px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+.icons {
+	display: inline;
+}
+
+.contact {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.right {
+	padding-top: 20px;
+	padding-right: 50px;
+}
+
+.center {
+	text-align: center !important;
+	padding-top: 20px;
+}
+
+.teal {
+	color: teal;
+}
